@@ -61,11 +61,9 @@ const CartItem = ({ onContinueShopping }) => {
         Total Cart Amount: ${calculateTotalAmount()}
       </h2>
 
-      <div>
+      <div className="cart-items">
         {cart.map((item) => (
           <div className="cart-item" key={item.name}>
-            {item.image}
-
             <div className="cart-item-details">
               <div className="cart-item-name">
                 {item.name}

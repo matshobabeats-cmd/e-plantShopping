@@ -10,7 +10,7 @@
   "build": "vite build",
   "lint": "eslint .",
   "preview": "vite build; vite preview --host"
-}
+},
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "react": "^18.2.0",
